@@ -51,3 +51,9 @@
     color: #006621;
     text-decoration: none;
 }
+
+.header-title {
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+}

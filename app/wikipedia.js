@@ -50,7 +50,7 @@ function displayResult(search_results) {
     }
 }
 
-function searchResult(event) {
+const searchResult = (event) => {
     if (event.key === 'Enter') {
         searchResultDisplay.textContent = '';
         spinner.classList.remove("d-none");
